@@ -1,0 +1,11 @@
+{
+  "Fast": true,
+  "Disable": [
+    "gocyclo"
+  ],
+  "Exclude": [
+    "should have comment",
+    "should be of the form",
+    "S1002"
+  ]
+}

@@ -1,0 +1,17 @@
+[prune]
+  go-tests = true
+  unused-packages = true
+
+# Could not lock afex/hystrix-go and a few other libraries as they don't have versioning
+
+[[constraint]]
+  name = "github.com/aws/aws-lambda-go"
+  version= "=1.6.0"
+
+[[constraint]]
+  name = "github.com/securego/gosec"
+  version = "2.0"
+
+ [[constraint]]
+  name = "github.com/stretchr/testify"
+  version = "1.3.0"

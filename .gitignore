@@ -1,0 +1,11 @@
+.DS_Store
+.idea/
+.vscode/
+vendor/
+*.out
+main
+*.log
+cover.html
+.editorconfig
+debug.test
+.env
